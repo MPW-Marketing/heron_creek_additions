@@ -20,8 +20,9 @@ function featured_box_item ( $atts, $content = null) {
         'class' => '',
     ), $atts );
     $cont = '';
-    $cont .= '<div class="conv-square"';
-    if ($atta['class'] !== '') {$cont .= 'class="'.$atta['class'].'"';}
+    $cont .= '<div class="conv-square';
+    if ($atta['class'] !== '') {$cont .= ' '.$atta['class'].'';}
+    $cont .= '"';
     if ($atta['background-image'] !== '' || $atta['height'] !== '') {
       $cont .= ' style="';
        if ($atta['background-image'] !== '') {$cont .= 'background-image: url(\''.$atta['background-image'].'\');';}

@@ -17,9 +17,11 @@ function featured_box_item ( $atts, $content = null) {
         'title_text' => '',
         'button_text' => '',
         'height' => '',
+        'class' => '',
     ), $atts );
     $cont = '';
     $cont .= '<div class="conv-square"';
+    if ($atta['class'] !== '') {$cont .= 'class="'.$atta['class'].'"';}
     if ($atta['background-image'] !== '' || $atta['height'] !== '') {
       $cont .= ' style="';
        if ($atta['background-image'] !== '') {$cont .= 'background-image: url(\''.$atta['background-image'].'\');';}

@@ -16,11 +16,15 @@ function featured_box_item ( $atts, $content = null) {
         'background-image' => '',
         'title_text' => '',
         'button_text' => '',
+        'height' => '',
     ), $atts );
     $cont = '';
     $cont .= '<div class="conv-square"';
-    if ($atta['background-image'] !== '') {
-      $cont .= ' style="background-image: url(\''.$atta['background-image'].'\');"';
+    if ($atta['background-image'] !== '' || $atta['height'] !== '') {
+      $cont .= ' style="';
+       if ($atta['background-image'] !== '') {$cont .= 'background-image: url(\''.$atta['background-image'].'\');';}
+       if ($atta['height'] !== '') {$cont .= 'height: '.$atta['height'].';';}
+       $cont .= '"'
     }
     $cont .= '>';
     $cont .= '<div class="box-title">'.$atta['title_text'].'</div>';

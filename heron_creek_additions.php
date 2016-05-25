@@ -23,7 +23,7 @@ function featured_box_item ( $atts, $content = null) {
     if ($atta['button_text'] !== ''){$cont .= '<div class="box-button">'.$atta['button_text'].'</div>';}
     $cont .= '</div>';
     
-    return do_shortcodes($cont);
+    return do_shortcode($cont);
     
 }
 add_shortcode('featured_box', 'featured_box_item');

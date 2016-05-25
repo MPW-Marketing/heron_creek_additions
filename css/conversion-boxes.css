@@ -19,7 +19,8 @@
     overflow: hidden;
 }
 .scrolling-box {
-    overflow: scroll;
+    overflow-y: scroll;
+    width: 102.3%;
 }
 .gray-box {
     background: #595959;

@@ -23,9 +23,7 @@
     width: 102.3%;
 }
 .conv-squares-container #cff.cff-fixed-height, .conv-square-container #sb_instagram.sbi_fixed_height {
-    overflow-y: hidden;
-    
-}
+    width: 102.5%;
 }
 .gray-box {
     background: #595959;

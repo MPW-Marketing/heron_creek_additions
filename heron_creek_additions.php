@@ -6,6 +6,11 @@ Version: 0.1.0
 Author: dmm
 Text Domain: heron_creek
 */
+function heron_creek_scripts_method() {
+    wp_enqueue_style( 'conversion-boxes', plugins_url( '/css/conversion-boxes.css' , __FILE__ ) );
+}
+add_action( 'wp_enqueue_scripts', 'heron_creek_scripts_method' );
+
 function featured_box_item ( $atts, $content = null) {
       $atta = shortcode_atts( array(
         'background-image' => '',

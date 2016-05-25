@@ -21,6 +21,7 @@
 .scrolling-box .box-inner, .conv-square.cal-box {
     overflow-y: auto;
     width: 102.3%;
+    overflow-x: hidden;
 }
 
 .conv-squares-container #cff.cff-fixed-height, .conv-square-container #sb_instagram.sbi_fixed_height {

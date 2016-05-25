@@ -24,7 +24,7 @@ function featured_box_item ( $atts, $content = null) {
       $cont .= ' style="';
        if ($atta['background-image'] !== '') {$cont .= 'background-image: url(\''.$atta['background-image'].'\');';}
        if ($atta['height'] !== '') {$cont .= 'height: '.$atta['height'].';';}
-       $cont .= '"'
+       $cont .= '"';
     }
     $cont .= '>';
     $cont .= '<div class="box-title">'.$atta['title_text'].'</div>';

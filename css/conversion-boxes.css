@@ -16,6 +16,7 @@
     background-size: cover;
     color: #fff;
     text-align: center;
+    overflow: hidden;
 }
 .box-title {
     font-size: 20px;

@@ -1,3 +1,12 @@
+.conv-squares-container .one_half, .conv-squares-container .one_third, .conv-squares-container .two_third, .conv-squares-container .three_fourth, .conv-squares-container .one_fourth, .conv-squares-container .one_fifth, .conv-squares-container .two_fifth, .conv-squares-container .three_fifth, .conv-squares-container .four_fifth, .conv-squares-container .one_sixth, .conv-squares-container .five_sixth {
+    margin-right: 0;
+}
+.conv-squares-container .one_fourth {
+    width: 25%;
+}
+.conv-squares-container .one_half {
+    width: 50%;
+}
 .conv-square {
     height: 200px;
     width: 100%;
@@ -18,5 +27,5 @@
     width: 100%;
     padding-bottom: 5px;
     padding-top: 5px;
-    background: rgba(46,46,46,0.7);
+    background: rgba(46,46,46,0.8);
 }

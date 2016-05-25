@@ -18,12 +18,12 @@
     text-align: center;
     overflow: hidden;
 }
-.scrolling-box {
-    overflow-y: scroll;
+.scrolling-box .box-inner {
+    overflow-y: auto;
     width: 102.3%;
 }
 .conv-squares-container #cff.cff-fixed-height, .conv-square-container #sb_instagram.sbi_fixed_height {
-    width: 102.5%;
+    width: 102.3%;
 }
 .gray-box {
     background: #595959;

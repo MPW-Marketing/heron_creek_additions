@@ -18,6 +18,7 @@ function featured_box_item ( $atts, $content = null) {
         'button_text' => '',
         'height' => '',
         'class' => '',
+        'button_link' => '',
     ), $atts );
     $cont = '';
     $cont .= '<div class="conv-square';
@@ -32,7 +33,7 @@ function featured_box_item ( $atts, $content = null) {
     $cont .= '>';
     $cont .= '<div class="box-title">'.$atta['title_text'].'</div>';
     $cont .= '<div class="box-content">'.$content.'</div>';
-    if ($atta['button_text'] !== ''){$cont .= '<div class="box-button">'.$atta['button_text'].'</div>';}
+    if ($atta['button_text'] !== ''){$cont .= '<div class="box-button"><a href="'.$atta['button_link'].'>'.$atta['button_text'].'</a></div>';}
     $cont .= '</div>';
     
     return do_shortcode($cont);

@@ -46,3 +46,14 @@
 .gray-box {
     background: #595959;
 }
+.large-boxes .box-title {
+    position: absolute;
+    top: 0px;
+    z-index: 99999;
+    margin-left:; auto;
+    margin-right:; auto;
+    left: 0;
+    right: 0;
+    background: rgba(46,46,46,0.8);
+    width: 100%;
+}

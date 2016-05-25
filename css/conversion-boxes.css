@@ -18,6 +18,12 @@
     text-align: center;
     overflow: hidden;
 }
+.scrolling-box {
+    overflow: scroll;
+}
+.gray-box {
+    background: #595959;
+}
 .box-title {
     font-size: 20px;
 }

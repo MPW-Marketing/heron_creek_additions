@@ -60,3 +60,16 @@
 .cff-wrapper, .simcal-calendar-list {
     margin-top: 25px;
 }
+#ik_fb_widget {
+    margin-top: 25px;
+    padding: 40px 0px 40px 50px;
+    text-align: left;
+    width: 91%;
+}
+#ik_fb_widget .ik_fb_feed_item {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0 15px 0;
+}
+#ik_fb_widget p {
+    font-weight: 100;
+}

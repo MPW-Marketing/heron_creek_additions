@@ -76,18 +76,18 @@
 
 /*js scrollpane edits */
 
-.jspHorizontalBar {
+.scrolling-box .jspHorizontalBar {
     height: 8px;
     background: transparent;
     display: none;
 }
-.jspVerticalBar {
+.scrolling-box .jspVerticalBar {
     width: 8px;
     background: none;
 }
-.jspTrack {
+.scrolling-box .jspTrack {
     background: transparent;
 }
-.jspDrag {
+.scrolling-box .jspDrag {
     background: #ffa200;
 }

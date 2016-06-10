@@ -73,3 +73,21 @@
 #ik_fb_widget p {
     font-weight: 100;
 }
+
+/*js scrollpane edits */
+
+.jspHorizontalBar {
+    height: 8px;
+    background: transparent;
+    display: none;
+}
+.jspVerticalBar {
+    width: 8px;
+    background: none;
+}
+.jspTrack {
+    background: transparent;
+}
+.jspDrag {
+    background: #ffa200;
+}
